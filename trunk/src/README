@@ -1,0 +1,17 @@
+To compile the program, type this in a terminal:
+
+-------
+
+# Create a local copy of Makefile.local
+cp Makefile.local.example Makefile.local
+
+# Compile
+make
+
+-------
+
+
+To be able to use the opencv implementation, install OpenCV from XXXX and
+change Makefile.local to contain:
+
+OPENCV_COIN=1
